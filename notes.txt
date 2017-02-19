@@ -1,0 +1,16 @@
+Redux 
+
+Motivation: 
+* JavaScript SPAs becoming more and more complex
+* Application/UI state becomes more complex
+* Losing control over complex state changes
+-> Make state mutations predictable!
+
+reducer(state, action) -> nextState
+
+MobX
+
+Not opinionated on how the state should be updated,
+only takes care that the relevant UI parts are updated if the state changes
+
+@observable, @observer annotations
